@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Source+Code+Pro:ital,wght@0,300;1,300&display=swap');
+
+body {
+    background-color: antiquewhite;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 57px;
+    background-color:white;
+}
+nav ul li{
+    padding: 0px 13px;
+}
+.brand img{
+    width: 88px;
+    padding: 0px 6px;
+
+}
+.container{
+    min-height: 45vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    font-family: 'Source Code Pro', monospace;
+    padding: 1px;
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color:white;
+    color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myPrograssBar{
+    min-width: 80vw;
+    cursor : pointer;
+}
+
+.songItem{
+    height: 34px;
+    display: flex;
+    background-color:white;
+    color: black;
+    width: 75%;
+    margin: 5px 0px;
+    border-radius: 23px;
+    align-items: center;
+    justify-content: space-between;
+}
+.songItem img{
+width: 35px;
+margin: 0 17px;
+border-radius: 40px;
+}
+
+.timestamp{
+    margin: 0px 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songItemcontainer{
+    margin: 74px;
+}
+.songInfo{
+    position: absolute ;
+    left : 9vw;
+    font-family: 'Source Code Pro', monospace;
+    
+    
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.81s ease-in;
+}
